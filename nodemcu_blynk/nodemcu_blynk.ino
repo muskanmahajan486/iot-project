@@ -18,7 +18,7 @@ void setup()
   Serial.begin(9600);
   Blynk.begin(auth, ssid, pass);
   lcd_widget.clear();
-  lcd_widget.print(0, 0, "TOPAN gile");
+  lcd_widget.print(0, 0, "Done");
 
   // Setup a function to be called every second
  
